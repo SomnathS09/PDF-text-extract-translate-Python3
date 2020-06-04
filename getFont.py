@@ -28,7 +28,7 @@ def walk(obj, fnt, emb):
 
     return fnt, emb# return the sets for each page
 
-if __name__ == '__main__':
+def getFont():
     fname = fileName()
     pdf = PdfFileReader(fname)
     fonts = set()
